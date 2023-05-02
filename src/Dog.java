@@ -23,4 +23,13 @@ public class Dog {
 		this.isCute = isCute;
 	}
 	
+	public boolean isCuteDog(Dog d) {
+		if(d.isCute() == true) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
 }
