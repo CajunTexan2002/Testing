@@ -19,8 +19,14 @@ public class Dog {
 	public boolean isCute() {
 		return isCute;
 	}
+	
 	public void setCute(boolean isCute) {
 		this.isCute = isCute;
+	}
+	
+	public boolean isCuteDog(Dog d) {
+		System.out.println(d.isCute);
+		return d.isCute;
 	}
 	
 }
